@@ -1,0 +1,33 @@
+*Comandos para crear un proyecto*
+
+tsc --init
+
+npm init
+
+----------------------------------
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./dist/index.js"
+  },
+  "author": "wilian",
+  "license": "MIT"
+}
+------------------------------------
+npm install express
+
+npm install @types/node --save-dev    // instala todas la clases y funciones de  node requeridas
+
+npm install @types/express --save-dev   // instala las dependencias de express
+
+npm uninstall @types/express --save-dev  // en caso de desinstalar si hubiera errores
+
+------------------------------------
+tsc --w
+
+npm start
+------------------------------------
