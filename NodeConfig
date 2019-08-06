@@ -24,7 +24,9 @@ npm install @types/node --save-dev    // instala todas la clases y funciones de 
 
 npm install @types/express --save-dev   // instala las dependencias de express
 
-npm uninstall @types/express --save-dev  // en caso de desinstalar si hubiera errores
+                    // npm uninstall @types/express --save-dev  // en caso de desinstalar si hubiera errores
+
+npm install nodemon
 
 ------------------------------------
 tsc --w
