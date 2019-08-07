@@ -33,3 +33,8 @@ tsc --w
 
 npm start
 ------------------------------------
+
+*** install node body parser a la carpeta de desarrollo
+
+npm i body-parser 
+
